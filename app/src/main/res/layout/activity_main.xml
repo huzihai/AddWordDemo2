@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hujing.addworddemo2.MainActivity"
+
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="437dp"
+        android:background="@mipmap/ic_launcher_round"
+        android:layout_marginTop="48dp">
+        android:layout_marginBottom="66dp">
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="437dp"
+
+        android:layout_marginTop="48dp">
+       >
+    </FrameLayout>
+
+    <ImageView
+        android:layout_gravity="bottom"
+        android:id="@+id/img"
+        android:background="@drawable/word_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom">
+            <LinearLayout
+                android:id ="@+id/edit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <EditText
+                    android:id="@+id/edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/queding_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="确定"
+                    android:layout_weight="0"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id ="@+id/text_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/size_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="wenzi chicun"
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/color_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="wenzi yanse"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>-->
+    <!--<FrameLayout
+        android:id="@+id/select_panel"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/back"
+        android:layout_marginTop="437dp">
+            <com.example.hujing.addworddemo2.TextColorPickerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />-->
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="437dp"
+
+        >
+        <com.example.hujing.addworddemo2.TextColorPickerView
+            android:id="@+id/color_panel"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/back"/>
+        <LinearLayout
+            android:id ="@+id/text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/color_panel"
+            >
+
+            <TextView
+                android:id="@+id/size_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="尺寸"
+                android:textColor="@color/color1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/color_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="颜色"
+                android:textColor="@color/color1"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </RelativeLayout>-->
+</FrameLayout>
